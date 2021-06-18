@@ -1,0 +1,36 @@
+#Create a function getting two integer inputs from user.
+#Print the following:
+#Addition of two numbers:
+#Subtraction of two numbers:
+#Division of two numbers:
+#Multiplication of two numbers:
+
+num1=float(input("input the number one: "))
+num2=float(input("input the number two: "))
+
+def math(num1,num2) :
+    print("Addition of two numbers",num1 + num2)
+    print("Subtraction of two numbers",num1 - num2)
+    print("Multiplication of two numbers",num1 * num2)
+    print("Division of two numbers",num1 / num2)
+
+input the number one: 20
+input the number two: 20
+Addition of two numbers 40.0
+Substraction of two numbers 0.0
+Multiplication of two numbers 400.0
+Division of two numbers 0.0
+
+#Create a function covid() & it should accept patient name, and body temperature, by default the body temperature should be 98 degree
+
+def covid(patient_name,body_temperature):
+    if body-temperature < str(0) :
+        default = str(98)
+        print("Patient Name is ",patient name," Body Temperature is ",default)
+    else:
+        print("Patient Name is ",patient name," Body Temperature is",body temperature)
+covid("Akshay","")
+covid("Akshay","99")
+
+Patient Name is Akshay Body Temperature is 98
+Patient Name is Akshay Body Temperature  is 99
